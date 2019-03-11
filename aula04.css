@@ -1,0 +1,33 @@
+html, body, .menu, .cabecalho, .conteudo, .rodape{
+  padding: 0;
+  margin: 0px;
+}
+body {
+  background-color: #FFC0CB;
+
+}
+/* As classes são representadas pelo ponto final . .nomeDaClasse por exemplo  */
+.menu{
+  background-color:#FFF0F5;
+  /* cor da fonte */
+  color: #C71585;
+  /* Altera o tamanho da fonte */
+  font-size: 19px;
+
+}
+/* Os ids são representador pela # exemplo #nomeDaClasse */
+#rodapePrincipal{
+  text-align: center;
+
+}
+.rodape{
+  background-color: #FFF0F5;
+}
+.conteudo{
+  border-style: solid;
+  border-color: #FFB6C1;
+  border-width: 20px;
+
+  "Margem interna" pode ser alterada utilizando o
+  padding: 20px;
+}
