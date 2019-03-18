@@ -1,0 +1,14 @@
+Baixar o repositório do Github:
+-git clone https://github.com/mirianmulatti/projeto_interface_web.git
+
+Add as mudanças feita na nova versão
+- git add *
+
+Configurar o usuario que fará/registrará as alterações
+ - git config user.email "taissabianca7@gmail.vom"
+
+ Registrar as mudanças (nova versão)
+  - git commit -m "Mensagem explicando mudanças"
+
+  Enviar código para repositório na internet
+   - git push origin master
