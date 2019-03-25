@@ -1,0 +1,29 @@
+*{
+
+}
+#curriculo{
+  background-color: pink;
+
+  /* define a largura de um elemento/tag */
+  width: 1000px;
+  margin: 0px auto;
+
+padding:40px;
+}
+
+.nome{
+  float: left;
+}
+
+.dadosPessoais{
+  float: right;
+}
+
+.limpar-float{
+  clear: both;
+}
+
+
+.tituloTopicos{
+  float: left;
+}
