@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <!-- importação do bootstrap -->
+  <link rel="stylesheet" href="bootstrap/bootstrap.css">
+  <!--  colocando icone no site-->
+  <link rel="icon" href="js\flor.png" type="image/x-icon" />
+
+  <!-- importação do jQuery -->
+  <script src="js/jquery-3.4.1.js"></script>
+  <script>
+    //Aqui vai todo o código JS
+    $(document).ready(function() {
+
+      $("#btnDadosPessoais").click(function() { //tem function é evento
+
+
+        $(".dc").hide();
+        $(".da").hide();
+        $(".dp").fadeIn();
+
+
+      });
+      //alert("Achoooou!"); colcoca um alerta
+      $("#btnDadosDeContato").click(function() { //tem function é evento
+        $(".dp").hide();
+        $(".da").hide();
+        $(".dc").fadeIn();
+
+
+      });
+      $("#btnDadosAcademicos").click(function() { //tem function é evento
+
+        $(".dp").hide();
+        $(".dc").hide();
+        $(".da").fadeIn();
+
+      });
+
+
+
+    });
+
+
+  </script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Instrocução a jQuery</h2>
+    <h2>Exemplo com abas</h2>
+
+    <hr>
+    <button type="button" class="btn btn-primary" id="btnDadosPessoais">Dados pessoais</button>
+    <button type="button" class="btn btn-primary" id="btnDadosDeContato">Dados de contato</button>
+    <button type="button" class="btn btn-primary" id="btnDadosAcademicos">Dados academicos</button>
+<br>
+<br>
+      <div class="dp" style="display:none;">
+        <h5>Mirian Marcia Mulatti Silva <br> Alto Paraná - PR <br> 17 anos</h5>
+      </div>
+
+      <div class="dc" style="display:none;">
+          <h5>mmulatti78@gmail.com <br> (44) 99770-6789 <br>Facebook: Mirian Mulatti</h5>
+      </div>
+
+      <div class="da" style="display:none;">
+        <h5>Cursando: técnico em informática - IFPR</h5>
+
+      </div>
+
+    </div>
+
+  </body>
+  </html>
